@@ -1,8 +1,8 @@
 ###Spike Statistics
 
-**Requirements:** none
-**Limitations:** none
-
+**Requirements:** none  
+**Limitations:** none  
+ 
 <center>
 ![REDO THIS LINK. IT IS IDIOTIC](http://www.rtxi.org/wp-content/uploads/2012/03/SpikeStats.png)
 </center>
