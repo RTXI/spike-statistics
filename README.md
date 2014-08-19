@@ -3,9 +3,7 @@
 **Requirements:** none  
 **Limitations:** none  
  
-<center>
-![REDO THIS LINK. IT IS IDIOTIC](http://www.rtxi.org/wp-content/uploads/2012/03/SpikeStats.png)
-</center>
+![Spike Statistics GUI](spike-statistics.png)
 
 This module contains a spike detector based on a positive threshold crossing (see SpikeDetect module). It computes the average ISI and the current coefficient of variation. These values are continuously updated with each spike until the statistics are reset with the button.
 

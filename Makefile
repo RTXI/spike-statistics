@@ -1,9 +1,9 @@
-PLUGIN_NAME = spike_stats
+PLUGIN_NAME = spike_statistics
 
-HEADERS = spike-stats.h
+HEADERS = spike-statistics.h
 
-SOURCES = spike-stats.cpp \
-    moc_spike-stats.cpp
+SOURCES = spike-statistics.cpp \
+          moc_spike-statistics.cpp
 		
 LIBS = 
 
