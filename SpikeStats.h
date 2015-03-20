@@ -17,7 +17,7 @@
  */
 
 #include <default_gui_model.h>
-#include "../include/runningstat.h"
+#include "include/runningstat.h"
 
 class SpikeStats : public DefaultGUIModel
 {
