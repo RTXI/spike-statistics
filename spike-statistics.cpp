@@ -57,8 +57,9 @@ SpikeStats::SpikeStats(void) : DefaultGUIModel("Spike Statistics", ::vars, ::num
 	initParameters();
 	DefaultGUIModel::createGUI(vars, num_vars);
 	customizeGUI();
-	update( INIT);
+	update(INIT);
 	refresh();
+	QTimer::singleShot(0, this, SLOT(resizeMe()));
 }
 
 SpikeStats::~SpikeStats(void) {}
