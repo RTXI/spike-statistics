@@ -105,7 +105,6 @@ void SpikeStats::execute(void) {
 		ISImean = runningPeriod.mean();
 		ISIstd = runningPeriod.std();
 		CV = runningPeriod.std() / runningPeriod.mean();
-		printf("%f %f\n", ISI, ISImean);
 	}
 	
 	output(0) = ISI; // send state information as output
