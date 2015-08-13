@@ -22,7 +22,6 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
 */
 
 #include "spike-statistics.h"
-#include <QtGui>
 
 extern "C" Plugin::Object *createRTXIPlugin(void) {
 	return new SpikeStats();
